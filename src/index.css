@@ -15,8 +15,8 @@ code {
 
 main {
 	margin: 0 auto;
-	max-width: 90%;
-  padding: 50px 30px;
+	max-width: 90%
+  /* padding: 50px 30px; */
 }
 :root {
   --primary: #F4A261;
@@ -51,6 +51,19 @@ body {
   background: var(--dark);
   color: var(--light);
   font-family: 'Poiret One', cursive;
+
+}
+
+#selfie {
+  height: 65%;
+  width: 45%;
+  border-radius: 10px;
+  margin: 10%
+}
+
+.navi {
+  font-size: 150%;
+  margin: 15%;
 
 }
 
@@ -123,6 +136,21 @@ button {
   cursor: pointer;
   margin: 0 1px;
   background-color: var(--secondary);
+}
+
+#about #blurb {
+  text-align: center;
+  font-style: oblique;
+}
+
+#about {
+  font-weight: bold;
+  font-family: 'Apple Chancery', cursive;
+  font-size: 100px;
+}
+
+#blurb {
+  font-size: 50px;
 }
 
 button:hover {
