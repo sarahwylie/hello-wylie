@@ -7,10 +7,10 @@ function Resume() {
             <div id='technical'>
                 <div id='techTitle'>
                 <h2>Technical Skills Dump</h2>
-                <h3>Use Ctrl+F to find out if I'm a good match for your needs!</h3>
+                <h3>Use <code>{"Ctrl+F"}</code> to find out if I'm a good match for your needs!</h3>
                 </div>
                 <div id='techSkills'>
-                Faker.js HTML JavaScript CSS GitHub FontAwesome Node.js Front-End Back-End REACT SEO(SearchEngineOptimization) GraphQL Iconic ES6 Markdown Python Bootstrap Sequelize MongoDB Mongoose SQL NoSQL Jest Express.js JQuery Webpack API(RESTful,server-side) Apollo AJAX MVC(ModelViewController) State Agile MERN Bulma Mobile-Responsiveness PWA
+                Faker.js HTML JavaScript CSS GitHub FontAwesome Node.js Front-End Back-End REACT SEO(SearchEngineOptimization) GraphQL Iconic ES6 Markdown Python Bootstrap Sequelize MongoDB Mongoose SQL NoSQL Jest Express.js JQuery Webpack API(RESTful,server-side) Apollo AJAX MVC(ModelViewController) State Agile MERN Bulma Mobile-Responsiveness PWA DOM(DocumentObjectModel) 
                 </div>
             </div>
         </section>

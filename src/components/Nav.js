@@ -1,39 +1,42 @@
 import React from 'react';
 
-function Nav() {
+function Nav(props) {
+    const {
+        contactSelected,
+        setContactSelected
+    } = props;
+
 
     return (
         <header>
             <div className='flex-row'>
-                <div className='col-sm'>
-                <a href='/'>
-                    <span role="img" aria-label="img-name">
-                        <img src={require(`../assets/profile-pic.png`)}
-                        alt='Sarah'
-                        className="img-thumbnail mx-1 inline-flex"
-                        id='selfie'
-                        />
+                <div className='col-5 photo'>
+                    <a href='/'>
+                        <span role="img" aria-label="img-name">
+                            <img src={require(`../assets/profile-pic.png`)}
+                                alt='Sarah'
+                                className="img-thumbnail mx-1 inline-flex"
+                                id='selfie'
+                            />
                         </span>
-                </a>
+                    </a>
                 </div>
-            <nav className='col'>
-                <ul className='flex-row'>
-                    <li className='col mx-2 navi'>
-                        <a href='#about'>
-                            Bio
-                        </a>
-                    </li>
-                    <li className='col mx-2 navi'>
-                        <span>Contact</span>
-                    </li>
-                    <li className='col mx-2 navi'>
-                        <span>Portfolio</span>
-                    </li>
-                    <li className='col mx-2 navi'>
-                        <span>Resume</span>
-                    </li>
-                </ul>
-            </nav>
+                <nav>
+                    <ul className="flex-row">
+                        <li className="mx-2">
+                            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+                                About me
+                            </a>
+                        </li>
+                        <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+                            <span onClick={() => setContactSelected(true)}>Contact</span>
+                        </li>
+                        {<li className={`mx-1 ${!contactSelected && 'navActive'}`}>
+                                <span onClick={() => { setContactSelected(false) }}></span>
+                            </li>
+                        }
+                    </ul>
+                </nav>
             </div>
         </header>
     )

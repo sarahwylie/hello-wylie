@@ -58,7 +58,9 @@ body {
   height: 65%;
   width: 45%;
   border-radius: 10px;
-  margin: 10%
+  margin: 10%;
+  /* background: var(--dark);
+  border: none */
 }
 
 .navi {
@@ -138,7 +140,11 @@ button {
   background-color: var(--secondary);
 }
 
-#about #blurb {
+.photo {
+  text-align: center;
+}
+
+.me {
   text-align: center;
   font-style: oblique;
 }
@@ -150,7 +156,7 @@ button {
 }
 
 #blurb {
-  font-size: 50px;
+  font-size: 25px;
 }
 
 button:hover {
