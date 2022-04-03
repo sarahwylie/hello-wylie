@@ -54,6 +54,10 @@ body {
 
 }
 
+.active {
+  color: #ffffff;
+}
+
 #selfie {
   height: 65%;
   width: 45%;
