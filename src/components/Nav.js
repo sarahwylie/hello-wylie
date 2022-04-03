@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 function Nav() {
 
@@ -18,12 +19,14 @@ function Nav() {
                     </a>
                 </div>
                 <nav>
-                    <ul className="flex-row">
-                        {/* <li className="mx-2"> */}
-                        <li><Nav exact to="/">About Me</Nav></li>
-                        <li><Nav to="/portfolio">Contact</Nav></li>
-                        <li><Nav to="/about">Portfolio</Nav></li>
-                        <li><Nav to="/resume">Resume</Nav></li>
+                    <ul className="flex-row navbar">
+                        <li><Link to="/">About</Link></li>
+                        <br/>
+                        <li><Link to="/contact">Contact</Link></li>
+                        <br/>
+                        <li><Link to="/portfolio">Portfolio</Link></li>
+                        <br/>
+                        <li><Link to="/resume">Resume</Link></li>
                 </ul>
             </nav>
             </div>

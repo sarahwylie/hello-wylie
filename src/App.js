@@ -1,5 +1,7 @@
 import React from 'react';
-import  { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import ImageEffect from 'react-image-effects'
+import backgroundImage from './assets/Rainbosplosion.jpg'
 import './index.css'
 import About from './components/About'
 import Nav from './components/Nav'
@@ -9,21 +11,27 @@ import Portfolio from './components/Portfolio'
 import Resume from './components/Resume'
 
 function App() {
-  
+
   return (
     <div>
+      <h1 id="about">Sarah Wylie</h1>
       <Router>
-      <Nav></Nav>
-      <div className="content">
-                <Routes>
-                    <Route path="/" component={About}/>
-                    <Route path="/contact" component={Contact}/>
-                    <Route path="/portfolio" component={Portfolio}/>
-                    <Route path="/resume" component={Resume}/>
-                </Routes>
-            </div>
-        </Router>
-      <Footer></Footer>
+        <Nav />
+        <div>
+          <Routes>
+            <Route path="/" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/resume" element={<Resume />} />
+          </Routes>
+        </div>
+      </Router>
+      {/* <ImageEffect url={backgroundImage}
+        effect="airbrush"
+        className='my-5'
+        style={{ width: '100%' }}
+        alt='background' /> */}
+        <Footer></Footer>
     </div>
   );
 }

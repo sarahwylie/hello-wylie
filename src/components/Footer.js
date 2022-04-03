@@ -1,16 +1,27 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { BsLinkedin, BsGithub, BsFillEnvelopeFill } from 'react-icons/bs'
 
 function Footer() {
     return (
-        <section className='flex-row'>
-            <div className='col'></div>
+        <section className='flex-row footer'>
+            {/* <div className='col'></div>
             <div className='col'>
-            <FontAwesomeIcon icon="fab fa-github" />
-            <FontAwesomeIcon icon="fab fa-linkedin" />
-            <FontAwesomeIcon icon="fa-solid fa-envelope" />
-            <div className='col'></div>
-            </div>
+                <div className='flex-row'> */}
+                    <div className='col'>
+                        <BsGithub
+                            href="github.com/sarahwylie"
+                            alt="github" /></div>
+                    <div className='col'>
+                        <BsLinkedin
+                            href="https://www.linkedin.com/in/sarahamwylie/"
+                            alt="linkedin" /></div>
+                    <div className='col'>
+                        <BsFillEnvelopeFill
+                            href="mailto:sarahannemariawylie@gmail.com"
+                            alt="email" /></div>
+                {/* </div>
+                <div className='col'></div>
+            </div> */}
         </section>
     )
 }
