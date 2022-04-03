@@ -6,7 +6,7 @@ function Resume() {
             <h1 id="about">Sarah Wylie</h1>
             <div id='technical'>
                 <div id='techTitle'>
-                <h2>Technical Skills Dump</h2>
+                <h2>Technical Skills</h2>
                 <h3>Use <code>{"Ctrl+F"}</code> to find out if I'm a good match for your needs!</h3>
                 </div>
                 <div id='techSkills'>
