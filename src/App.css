@@ -13,6 +13,10 @@
   }
 }
 
+.bgimg {
+  align-items: center;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +26,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.footer {
+  margin-left: 20%;
+  margin-right: 20%;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .App-link {

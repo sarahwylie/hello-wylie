@@ -1,7 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import ImageEffect from 'react-image-effects'
-import backgroundImage from './assets/Rainbosplosion.jpg'
 import './index.css'
 import About from './components/About'
 import Nav from './components/Nav'

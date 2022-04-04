@@ -54,23 +54,96 @@ body {
 
 }
 
+.bgimg {
+  align-items: center;
+  animation-name: fadeIn;
+  animation-duration: 5s
+}
+
+.contact-info {
+  margin-left: 2%;
+  margin-right: 2%
+}
+
+.footer {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 3px;
+  align-items: center;
+  justify-content: space-around;
+  flex-shrink: 0;
+  font-size: 150%;
+}
+
 .active {
   color: #ffffff;
 }
 
 #selfie {
-  height: 65%;
-  width: 45%;
+  height: 95%;
+  width: 85%;
   border-radius: 10px;
-  margin: 10%;
-  /* background: var(--dark);
-  border: none */
+  margin: 2%;
 }
 
-.navi {
-  font-size: 150%;
-  margin: 15%;
+.snaps {
+  padding: 1em;
+  /* vertical-align: center; */
+}
 
+@media only screen and (max-width: 768px) {
+  #selfie, .snaps  {
+    display:none;
+  }
+}
+
+.card {
+  border: var(--darker);
+  border-width: 2em;
+  border-style: solid;
+  background-color: var(--dark);
+  border-radius: 10px;
+}
+
+.nb {
+  font-size: 150%;
+  vertical-align: center;
+  padding: 2%;
+  margin: 0;
+  justify-content: space-between;
+  width: 25%;
+  padding-top: 7%
+}
+@media only screen and (max-width: 768px) {
+    .nb {
+      width: auto;
+      padding-top: auto
+    }
+}
+
+.portfolio-item-title {
+  color: var(--primary);
+}
+
+.talk-tech {
+  background-image: url(./assets/Talk-Tech.png);
+}
+
+.resume {
+  text-align: center;
+}
+
+#techSkills, #techTitle, #portfolio {
+  text-align: center;
+  color: var(--light)
+}
+
+.port {
+  background-color: var(--darker);
+}
+
+.strong {
+  font-weight: bold;
 }
 
 h1,
