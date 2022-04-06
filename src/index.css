@@ -69,6 +69,7 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 3px;
+  margin-top: -50;
   align-items: center;
   justify-content: space-around;
   flex-shrink: 0;
