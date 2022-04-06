@@ -3,9 +3,9 @@ import { BsGithub } from 'react-icons/bs'
 import TalkTech from '../assets/Talk-Tech.png'
 import Note from '../assets/Note.png'
 import BeersBands from '../assets/BeersBands.png'
-import Cacheching from '../assets/Cacheching'
-import Password from '../assets/Password'
-import READ from '../assets/READ'
+import Cacheching from '../assets/Cacheching.png'
+import Password from '../assets/Password.png'
+import READ from '../assets/READ.jpg'
 
 function Portfolio() {
   return (
@@ -58,17 +58,18 @@ function Portfolio() {
             <div className='col-4'>
               <img src={BeersBands} alt="Beers and Bands" className='snaps' />
             </div>
-            <h3 className="portfolio-item-title"><a href="https://sarahwylie.github.io/BeersandBands"
+            <div className='col-8'>
+              <h3 className="portfolio-item-title"><a href="https://sarahwylie.github.io/BeersandBands"
                 alt="Beers and Bands website"
                 target="_blank"
                 rel="noreferrer">Beers and Bands</a></h3>
-          <h5 className="portfolio-languages">
-            Built With:
-            JavaScript, HTML, CSS, jQuery, Bulma, API
-          </h5>
-          <p>A one-stop site for your night out! Find a local brewpub and your favorite band or concert venue. Search by city and date to plan one or several nights of drunken moshing, chill jamming, or groovy grinding.</p>
-          <BsGithub /><a href="https://github.com/sarahwylie/BeersandBands" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
-          </div>
+              <h5 className="portfolio-languages">
+                Built With:
+                JavaScript, HTML, CSS, jQuery, Bulma, API
+              </h5>
+              <p>A one-stop site for your night out! Find a local brewpub and your favorite band or concert venue. Search by city and date to plan one or several nights of drunken moshing, chill jamming, or groovy grinding.</p>
+              <BsGithub /><a href="https://github.com/sarahwylie/BeersandBands" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
+            </div>
           </div>
         </div>
 
@@ -79,14 +80,14 @@ function Portfolio() {
                 alt="Weather Dashboard website"
                 target="_blank"
                 rel="noreferrer">Weather Dashboard</a></h3>
-          <h5 className="portfolio-languages">
-            Built With:
-            JavaScript, HTML, CSS, API
-          </h5>
-          <p>An interactive weather website for travelers and those interested in weather around the world. Provides real-time weather forecasts and updates for searched-for cities, and allows users to save search history to maintain a database of the most searched-for cities.</p>
-          <BsGithub /><a href="https://github.com/sarahwylie/Weather-Dashboard" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
-          </div>
-          <div className='col-4'>
+              <h5 className="portfolio-languages">
+                Built With:
+                JavaScript, HTML, CSS, API
+              </h5>
+              <p>An interactive weather website for travelers and those interested in weather around the world. Provides real-time weather forecasts and updates for searched-for cities, and allows users to save search history to maintain a database of the most searched-for cities.</p>
+              <BsGithub /><a href="https://github.com/sarahwylie/Weather-Dashboard" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
+            </div>
+            <div className='col-4'>
               <img src={Note} alt="Note" className='snaps' />
             </div>
           </div>
@@ -97,31 +98,33 @@ function Portfolio() {
             <div className='col-4'>
               <img src={READ} alt="READ All About It" className='snaps' />
             </div>
-            <h3 className="portfolio-item-title">READ All About It!</h3>
-          <h5 className="portfolio-languages">
-            Built With:
-            JavaScript, Node, Markdown
-          </h5>
-          <p>Tired of getting to the end of your project and then realizing you still need a great README.md file? Want your project to stand out, but tired of putting in the effort? You've come to the right place! Use this installer to generate a README.md file that is concise and well-rounded! You'll be able to insert everything you need by prompt rather than thinking through what you might be missing. Never second-guess the opening to your project's GitHub page again!</p>
-          <BsGithub /><a href="https://github.com/sarahwylie/READ-all-about-it" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
+            <div className='col-8'>
+              <h3 className="portfolio-item-title">READ All About It!</h3>
+              <h5 className="portfolio-languages">
+                Built With:
+                JavaScript, Node, Markdown
+              </h5>
+              <p>Tired of getting to the end of your project and then realizing you still need a great README.md file? Want your project to stand out, but tired of putting in the effort? You've come to the right place! Use this installer to generate a README.md file that is concise and well-rounded! You'll be able to insert everything you need by prompt rather than thinking through what you might be missing. Never second-guess the opening to your project's GitHub page again!</p>
+              <BsGithub /><a href="https://github.com/sarahwylie/READ-all-about-it" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
+            </div>
           </div>
-          </div>
+        </div>
 
-          <div className="col-12 mb-2 p-3 flex-column card">
+        <div className="col-12 mb-2 p-3 flex-column card">
           <div className='flex-row'>
             <div className='col-8'>
               <h3 className="portfolio-item-title"><a href="https://sarahwylie.github.io/Password-Generator"
                 alt="Password Generator website"
                 target="_blank"
                 rel="noreferrer">Password Generator</a></h3>
-          <h5 className="portfolio-languages">
-            Built With:
-            JavaScript, HTML, CSS
-          </h5>
-          <p>Create a randomly generated password between 8-128 characters containing options for numbers, special characters, and upper or lower-case letters.</p>
-          <BsGithub /><a href="https://github.com/sarahwylie/Password-Generator" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
-          </div>
-          <div className='col-4'>
+              <h5 className="portfolio-languages">
+                Built With:
+                JavaScript, HTML, CSS
+              </h5>
+              <p>Create a randomly generated password between 8-128 characters containing options for numbers, special characters, and upper or lower-case letters.</p>
+              <BsGithub /><a href="https://github.com/sarahwylie/Password-Generator" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
+            </div>
+            <div className='col-4'>
               <img src={Password} alt="Password Generator" className='snaps' />
             </div>
           </div>
@@ -132,19 +135,21 @@ function Portfolio() {
             <div className='col-4'>
               <img src={Cacheching} alt="Cache-ching" className='snaps' />
             </div>
-            <h3 className="portfolio-item-title"><a href="https://sarahwylie.github.io/Cache-ching"
+            <div className='col-8'>
+              <h3 className="portfolio-item-title"><a href="https://sarahwylie.github.io/Cache-ching"
                 alt="Cache-ching website"
                 target="_blank"
                 rel="noreferrer">Cache-ching</a></h3>
-          <h5 className="portfolio-languages">
-            Built With:
-            JavaScript, HTML, CSS, Node.js, NPM, Express
-          </h5>
-          <p>Do you often forget how much money you've spent as you're traveling, but your bank app requires internet that you don't have at that crucial moment because, well, you're traveling? Take a load off by tracking your own budget so you can see a running balance as money flows in and out. The offline capabilities allow you to get accurate, up-to-moment budget snapshots which are then stored at your next web access point. Traveling is stressful, your money shouldn't be.</p>
-          <BsGithub /><a href="https://github.com/sarahwylie/Cache-ching" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
+              <h5 className="portfolio-languages">
+                Built With:
+                JavaScript, HTML, CSS, Node.js, NPM, Express
+              </h5>
+              <p>Do you often forget how much money you've spent as you're traveling, but your bank app requires internet that you don't have at that crucial moment because, well, you're traveling? Take a load off by tracking your own budget so you can see a running balance as money flows in and out. The offline capabilities allow you to get accurate, up-to-moment budget snapshots which are then stored at your next web access point. Traveling is stressful, your money shouldn't be.</p>
+              <BsGithub /><a href="https://github.com/sarahwylie/Cache-ching" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
+            </div>
           </div>
-          </div>
-
+        </div>
+      </div>
     </section>
   )
 }
