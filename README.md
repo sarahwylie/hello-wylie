@@ -14,7 +14,7 @@ Learn more about me, visit my portfolio to see a sample of my work, and download
 I'm hardworking and fun. Get to know me! Find out how I can help your company, be an asset on your team, or just help out with your next gig.
 
 ## Installation
-Visit [my website](https://sarahwylie.github.io/) to get started!
+Visit [my website](https://sarahwylie.github.io/hello-wylie/) to get started!
 
 ## Output:
 ![Screenshot](./SarahWylie.png)
