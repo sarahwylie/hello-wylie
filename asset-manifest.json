@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/hello-wylie/static/css/main.420e419c.css",
-    "main.js": "/hello-wylie/static/js/main.25d63d0f.js",
+    "main.js": "/hello-wylie/static/js/main.09a6184c.js",
     "static/js/787.3a823247.chunk.js": "/hello-wylie/static/js/787.3a823247.chunk.js",
     "static/media/BeersBands.png": "/hello-wylie/static/media/BeersBands.563fbbdc0b6612bf3d27.png",
+    "static/media/hawker.png": "/hello-wylie/static/media/hawker.60c9c8c42c12d8ec1a2e.png",
     "static/media/Rainbosplosion.jpg": "/hello-wylie/static/media/Rainbosplosion.dbe2a037f2b784f1f9a2.jpg",
     "static/media/profile-pic.png": "/hello-wylie/static/media/profile-pic.9ec11ea4a5d340e49365.png",
     "static/media/READ.jpg": "/hello-wylie/static/media/READ.5df19c6ae318af59b1f6.jpg",
@@ -13,11 +14,11 @@
     "static/media/Note.png": "/hello-wylie/static/media/Note.34b9c57985603747dd12.png",
     "index.html": "/hello-wylie/index.html",
     "main.420e419c.css.map": "/hello-wylie/static/css/main.420e419c.css.map",
-    "main.25d63d0f.js.map": "/hello-wylie/static/js/main.25d63d0f.js.map",
+    "main.09a6184c.js.map": "/hello-wylie/static/js/main.09a6184c.js.map",
     "787.3a823247.chunk.js.map": "/hello-wylie/static/js/787.3a823247.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.420e419c.css",
-    "static/js/main.25d63d0f.js"
+    "static/js/main.09a6184c.js"
   ]
 }
