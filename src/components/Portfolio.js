@@ -6,12 +6,33 @@ import BeersBands from '../assets/BeersBands.png'
 import Cacheching from '../assets/Cacheching.png'
 import Password from '../assets/Password.png'
 import READ from '../assets/READ.jpg'
+import hawker from '../assets/hawker.png'
 
 function Portfolio() {
   return (
     <section className="my-3" id="portfolio">
       <h2 className="p-2 display-inline-block strong">Portfolio</h2>
       <div className="flex-row justify-space-between">
+
+      <div className="col-12 mb-2 p-3 flex-column card">
+          <div className='flex-row'>
+            <div className='col-8'>
+              <h3 className="portfolio-item-title"><a href="https://texas-hawker.herokuapp.com/"
+                alt="Hawker website"
+                target="_blank"
+                rel="noreferrer">Hawker</a></h3>
+              <h5 className="portfolio-languages">
+                Built With:
+                JavaScript, ES6, Node, NPM, Express, Cookies, Heroku, React, Sass, GraphQL, HTML, Faker.js, dotenv, bcrypt, Faker.js, Jest, React Router, JWT, Stripe, YAML, Webpack
+              </h5>
+              <p>Do you have a spectacular item that you just don't need anymore? Are you in search of something specific but don't want to spend an inordinate amount of money or search every thrift store in the greater metropolitan area? Come check out Hawker!</p>
+              <BsGithub /><a href="https://github.com/nicnolen/hawker" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
+            </div>
+            <div className='col-4'>
+              <img src={hawker} alt="Hawker" className='snaps' />
+            </div>
+          </div>
+        </div>
 
         <div className="col-12 mb-2 p-3 flex-column card">
           <div className='flex-row'>
