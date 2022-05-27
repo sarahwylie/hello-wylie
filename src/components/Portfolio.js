@@ -26,7 +26,7 @@ function Portfolio() {
                 JavaScript, ES6, Node, NPM, Express, Cookies, Heroku, React, Sass, GraphQL, HTML, Faker.js, dotenv, bcrypt, Faker.js, Jest, React Router, JWT, Stripe, YAML, Webpack
               </h5>
               <p>Do you have a spectacular item that you just don't need anymore? Are you in search of something specific but don't want to spend an inordinate amount of money or search every thrift store in the greater metropolitan area? Come check out Hawker!</p>
-              <BsGithub /><a href="https://github.com/nicnolen/hawker" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
+              <BsGithub /><a href="https://github.com/nicnolen/Hawker" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
             </div>
             <div className='col-4'>
               <img src={hawker} alt="Hawker" className='snaps' />
