@@ -6,9 +6,9 @@ function About() {
     return (
         <section className='my-5 me'>
             <div id='blurb'>
-                Sarah is a full-stack developer living in Austin, TX. She is an avid coder, hiker, reader, and chef, and she enjoys spending time with her family and pets.
+                Sarah Wylie is a skilled software developer whose natural leadership skills and collaborative tendencies make her an excellent addition to any team. Sarah spent a decade managing several multi-million dollar businesses while simultaneously incorporating new technologies and advancements to help spur growth. Sarah strives to fulfill the greater good on any team and her lifelong commitment to learning is second only to her drive to help others.
             </div>
-            <img src={Rainbosplosion} className="bgimg animate__animated animate__fadeIn" alt="rainbowsplosion"/>
+            <img src={Rainbosplosion} className="fade-in-image" alt="rainbowsplosion" />
         </section>
     )
 }

@@ -12,7 +12,7 @@ function Resume() {
                 <br />
                 </div>
                 <div id='techSkills'>
-                Faker.js | HTML | JavaScript | CSS | GitHub | FontAwesome | Node.js | Front-End | Back-End | REACT | SEO(SearchEngineOptimization) | GraphQL | Iconic | ES6 | Markdown | Python | Bootstrap | Sequelize | MongoDB | Mongoose | SQL | NoSQL | Jest | Express.js | JQuery | Webpack | API(RESTful,server-side) | Apollo | AJAX | MVC(ModelViewController) | State | Agile | MERN | Bulma | Mobile-Responsiveness | PWA(ProgressiveWebApp) | DOM(DocumentObjectModel) | Redux | JWT(JSONWebTokens) | Context | Stripe
+                Faker.js | HTML5 | JavaScript | CSS3 | GitHub | FontAwesome | Node.js | Front-End | Back-End | REACT | SEO(SearchEngineOptimization) | GraphQL | Iconic | ES6 | Markdown | Python | Bootstrap | Sequelize | MongoDB | Mongoose | SQL | NoSQL | Jest | Express.js | JQuery | Webpack | API(RESTful,server-side) | Apollo | AJAX | MVC(ModelViewController) | State | Agile | MERN | Bulma | Mobile-Responsiveness | PWA(ProgressiveWebApp) | DOM(DocumentObjectModel) | Redux | JWT(JSONWebTokens) | Context | Stripe | Java | Spring | SpringBoot | JDBC | Jackson | JPA | Cmder | Eclipse | VSCode | PGAdmin | PostgreSQL | Insomnia | IntelliJ IDEA | Babel | Maven
                 </div>
             </div>
         </section>
