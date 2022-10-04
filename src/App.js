@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './index.css'
 import FadeIn from 'react-fade-in';
@@ -11,10 +11,29 @@ import Resume from './components/Resume'
 
 function App() {
 
+  const [bio, setBio] = useState("")
+
+  useEffect(() => {
+      const url = "https://api.github.com/users/sarahwylie";
+
+      const fetchData = async () => {
+          try {
+              const response = await fetch(url);
+              const json = await response.json();
+              setBio(json.bio);
+          } catch (error) {
+              console.log("error", error);
+          }
+      };
+
+      fetchData();
+  }, []);
+
   return (
     <FadeIn>
       <div>
         <h1 id="about">Sarah Wylie</h1>
+        <h2 className='bio'>{bio}</h2>
         <Router>
           <Nav />
           <div>

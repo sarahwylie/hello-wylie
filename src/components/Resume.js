@@ -3,7 +3,7 @@ import React from 'react';
 function Resume() {
     return (
         <section className='my-5 resume'>
-            <div>View and download my full resume <a href="https://drive.google.com/file/d/1933nC7H0iCPkI0EdA542Vs4hf0QGQSKl/view?usp=sharing" alt="resume" target="_blank" rel="noreferrer">here</a>. In the meantime, see if my skills fit your needs below!</div>
+            <div>View and download my full resume <a href="https://drive.google.com/file/d/1Nndd9jAHWFPYLSzP0e9cJRwjhwmuJkZy/view?usp=sharing" alt="resume" target="_blank" rel="noreferrer">here</a>. In the meantime, see if my skills fit your needs below!</div>
             <br/>
             <br/>
             <div id='technical'>

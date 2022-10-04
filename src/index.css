@@ -458,3 +458,9 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+header {
+  text-align: center;
+  align-items: center;
+  
+}
