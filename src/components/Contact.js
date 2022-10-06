@@ -1,15 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { validateEmail } from '../utils/helpers';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
-import { useForm } from "react-hook-form";
+// import { useForm } from "react-hook-form";
 
 const ContactForm = () => {
 
-  const { reset, register } = useForm();
+  // const { reset, register } = useForm();
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
   const { name, email, message } = formState;
+  // const [name, setName] = useState('');
+  // const [email, setEmail] = useState('');
+  // const [message, setMessage] = useState('');
+  const firstRef = useRef(null);
+  const middleRef = useRef(null);
+  const lastRef = useRef(null);
   const [errorMessage, setErrorMessage] = useState('');
   const [status, setStatus] = useState("Submit");
 
@@ -47,13 +53,6 @@ const ContactForm = () => {
     });
   };
 
-//   useEffect(() => {
-//     setTimeout(() => setFormState({ name: '', email: '', message: '' }), 1000);
-// }, []);
-// useEffect(() => {
-//   reset(formState);
-// }, [formState]);
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!errorMessage) {
@@ -68,9 +67,11 @@ const ContactForm = () => {
         'EpzCtbo4UK_5HolGj'
       );
       toastifySuccess();
+      firstRef.current.value = '';
+      middleRef.current.value = '';
+      lastRef.current.value = '';
       setStatus("Submit");
-      reset();
-      } catch (e) {
+    } catch (e) {
       console.log(e);
     }
   };
@@ -82,16 +83,16 @@ const ContactForm = () => {
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" defaultValue={name} onBlur={handleChange}
-            id="name" name="name" {...register('name')} required /></div>
+            id="name" name="name" ref={firstRef} required /></div>
         <div>
           <label htmlFor="email"> Email address:</label>
           <input type="email" defaultValue={email} onBlur={handleChange}
-            id="email" name="email" {...register('email')} required />
+            id="email" name="email" ref={middleRef} required />
         </div>
         <div>
           <label htmlFor="message">Message:</label>
           <textarea defaultValue={message} onBlur={handleChange}
-            id="message" rows="5" name="message" {...register('message')} required />
+            id="message" rows="5" name="message" ref={lastRef} required />
         </div>
         {errorMessage && (
           <div>
