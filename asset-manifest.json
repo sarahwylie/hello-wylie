@@ -1,24 +1,25 @@
 {
-  "files": {
-    "main.css": "/hello-wylie/static/css/main.c91cb832.css",
-    "main.js": "/hello-wylie/static/js/main.2a17a7a9.js",
-    "static/js/787.3a823247.chunk.js": "/hello-wylie/static/js/787.3a823247.chunk.js",
-    "static/media/BeersBands.png": "/hello-wylie/static/media/BeersBands.563fbbdc0b6612bf3d27.png",
-    "static/media/hawker.png": "/hello-wylie/static/media/hawker.60c9c8c42c12d8ec1a2e.png",
-    "static/media/Rainbosplosion.jpg": "/hello-wylie/static/media/Rainbosplosion.dbe2a037f2b784f1f9a2.jpg",
-    "static/media/profile-pic.png": "/hello-wylie/static/media/profile-pic.9ec11ea4a5d340e49365.png",
-    "static/media/READ.jpg": "/hello-wylie/static/media/READ.5df19c6ae318af59b1f6.jpg",
-    "static/media/Cacheching.png": "/hello-wylie/static/media/Cacheching.d8cde2b610f0f0dfb8fa.png",
-    "static/media/Talk-Tech.png": "/hello-wylie/static/media/Talk-Tech.5baaaa456e192b6c11a0.png",
-    "static/media/Password.png": "/hello-wylie/static/media/Password.ba9877fa877b90bae899.png",
-    "static/media/Note.png": "/hello-wylie/static/media/Note.34b9c57985603747dd12.png",
-    "index.html": "/hello-wylie/index.html",
-    "main.c91cb832.css.map": "/hello-wylie/static/css/main.c91cb832.css.map",
-    "main.2a17a7a9.js.map": "/hello-wylie/static/js/main.2a17a7a9.js.map",
-    "787.3a823247.chunk.js.map": "/hello-wylie/static/js/787.3a823247.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.c91cb832.css",
-    "static/js/main.2a17a7a9.js"
-  ]
+  "main.css": "/hello-wylie/static/css/main.35117bf4.chunk.css",
+  "main.js": "/hello-wylie/static/js/main.0bc15e36.chunk.js",
+  "main.js.map": "/hello-wylie/static/js/main.0bc15e36.chunk.js.map",
+  "runtime~main.js": "/hello-wylie/static/js/runtime~main.bbea16cb.js",
+  "runtime~main.js.map": "/hello-wylie/static/js/runtime~main.bbea16cb.js.map",
+  "static/css/2.0fbd28ac.chunk.css": "/hello-wylie/static/css/2.0fbd28ac.chunk.css",
+  "static/js/2.97038a14.chunk.js": "/hello-wylie/static/js/2.97038a14.chunk.js",
+  "static/js/2.97038a14.chunk.js.map": "/hello-wylie/static/js/2.97038a14.chunk.js.map",
+  "static/js/3.ec459d4c.chunk.js": "/hello-wylie/static/js/3.ec459d4c.chunk.js",
+  "static/js/3.ec459d4c.chunk.js.map": "/hello-wylie/static/js/3.ec459d4c.chunk.js.map",
+  "index.html": "/hello-wylie/index.html",
+  "precache-manifest.8ab9574fe2a29febd9e7a6b63080b7a7.js": "/hello-wylie/precache-manifest.8ab9574fe2a29febd9e7a6b63080b7a7.js",
+  "service-worker.js": "/hello-wylie/service-worker.js",
+  "static/css/2.0fbd28ac.chunk.css.map": "/hello-wylie/static/css/2.0fbd28ac.chunk.css.map",
+  "static/css/main.35117bf4.chunk.css.map": "/hello-wylie/static/css/main.35117bf4.chunk.css.map",
+  "static/media/BeersBands.png": "/hello-wylie/static/media/BeersBands.99739599.png",
+  "static/media/Cacheching.png": "/hello-wylie/static/media/Cacheching.427fb701.png",
+  "static/media/Note.png": "/hello-wylie/static/media/Note.b6454ea1.png",
+  "static/media/Password.png": "/hello-wylie/static/media/Password.bb44d557.png",
+  "static/media/READ.jpg": "/hello-wylie/static/media/READ.75c17ea9.jpg",
+  "static/media/Rainbosplosion.jpg": "/hello-wylie/static/media/Rainbosplosion.87b708e7.jpg",
+  "static/media/Talk-Tech.png": "/hello-wylie/static/media/Talk-Tech.ab61f903.png",
+  "static/media/hawker.png": "/hello-wylie/static/media/hawker.8688b856.png"
 }
