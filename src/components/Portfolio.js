@@ -10,7 +10,7 @@ import hawker from '../assets/hawker.png'
 
 function Portfolio() {
   return (
-    <section className="my-3" id="portfolio">
+    <section className="my-3 animate__animated animate__slideInUp" id="portfolio">
       <h2 className="p-2 display-inline-block strong">Portfolio</h2>
       <div className="flex-row justify-space-between">
 
@@ -20,7 +20,7 @@ function Portfolio() {
               <h3 className="portfolio-item-title"><a href="https://texas-hawker.herokuapp.com/"
                 alt="Hawker website"
                 target="_blank"
-                rel="noreferrer">Hawker</a></h3>
+                rel="noopener noreferrer">Hawker</a></h3>
               <h5 className="portfolio-languages">
                 Built With:
                 JavaScript, ES6, Node, NPM, Express, Cookies, Heroku, React, Sass, GraphQL, HTML, Faker.js, dotenv, bcrypt, Faker.js, Jest, React Router, JWT, Stripe, YAML, Webpack
@@ -43,7 +43,7 @@ function Portfolio() {
               <h3 className="portfolio-item-title"><a href="https://talk-tech.herokuapp.com"
                 alt="Talk Tech website"
                 target="_blank"
-                rel="noreferrer">Talk Tech</a></h3>
+                rel="noopener noreferrer">Talk Tech</a></h3>
               <h5 className="portfolio-languages">
                 Built With:
                 JavaScript, HTML, CSS, ES6, jQuery, Bootstrap, Heroku, Jest, Node, Insomnia, Sequelize, NPM, Express
@@ -60,7 +60,7 @@ function Portfolio() {
               <h3 className="portfolio-item-title"><a href="https://still-reaches-43183.herokuapp.com"
                 alt="Note website"
                 target="_blank"
-                rel="noreferrer">Thought Another Note</a></h3>
+                rel="noopener noreferrer">Thought Another Note</a></h3>
               <h5 className="portfolio-languages">
                 Built With:
                 JavaScript, ES6, Node, NPM, Express, Cookies, Heroku
@@ -83,7 +83,7 @@ function Portfolio() {
               <h3 className="portfolio-item-title"><a href="https://sarahwylie.github.io/BeersandBands"
                 alt="Beers and Bands website"
                 target="_blank"
-                rel="noreferrer">Beers and Bands</a></h3>
+                rel="noopener noreferrer">Beers and Bands</a></h3>
               <h5 className="portfolio-languages">
                 Built With:
                 JavaScript, HTML, CSS, jQuery, Bulma, API
@@ -100,7 +100,7 @@ function Portfolio() {
               <h3 className="portfolio-item-title"><a href="https://sarahwylie.github.io/Weather-Dashboard"
                 alt="Weather Dashboard website"
                 target="_blank"
-                rel="noreferrer">Weather Dashboard</a></h3>
+                rel="noopener noreferrer">Weather Dashboard</a></h3>
               <h5 className="portfolio-languages">
                 Built With:
                 JavaScript, HTML, CSS, API
@@ -137,7 +137,7 @@ function Portfolio() {
               <h3 className="portfolio-item-title"><a href="https://sarahwylie.github.io/Password-Generator"
                 alt="Password Generator website"
                 target="_blank"
-                rel="noreferrer">Password Generator</a></h3>
+                rel="noopener noreferrer">Password Generator</a></h3>
               <h5 className="portfolio-languages">
                 Built With:
                 JavaScript, HTML, CSS
@@ -160,7 +160,7 @@ function Portfolio() {
               <h3 className="portfolio-item-title"><a href="https://sarahwylie.github.io/Cache-ching"
                 alt="Cache-ching website"
                 target="_blank"
-                rel="noreferrer">Cache-ching</a></h3>
+                rel="noopener noreferrer">Cache-ching</a></h3>
               <h5 className="portfolio-languages">
                 Built With:
                 JavaScript, HTML, CSS, Node.js, NPM, Express

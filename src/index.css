@@ -54,15 +54,16 @@ body {
 
 }
 
-.bgimg {
+/* .bgimg {
   align-items: center;
   animation-name: fadeIn;
   animation-duration: 5s
-}
+} */
 
 .contact-info {
   margin-left: 2%;
-  margin-right: 2%
+  margin-right: 2%;
+  /* text-align: center; */
 }
 
 .footer {
@@ -84,11 +85,18 @@ body {
   color: #ffffff;
 }
 
+.bio {
+  font-size: small;
+  text-align: center
+}
+
 #selfie {
   height: 95%;
   width: 85%;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   margin: 2%;
+  background: var(--dark);
+  border: none;
 }
 
 .snaps {
@@ -103,11 +111,11 @@ body {
 }
 
 .fade-in-image {
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
+  animation: fadeIn 10s;
+  -webkit-animation: fadeIn 10s;
+  -moz-animation: fadeIn 10s;
+  -o-animation: fadeIn 10s;
+  -ms-animation: fadeIn 10s;
 }
 
 @keyframes fadeIn {
@@ -169,7 +177,8 @@ body {
 
 .resume {
   text-align: center;
-  padding: 1%
+  padding: 0, 1%, 1%, 1%;
+  margin-top: 0%
 }
 
 #techSkills, #techTitle, #portfolio {
@@ -258,6 +267,8 @@ button {
 
 .photo {
   text-align: center;
+  margin: 0em;
+  padding: 0em, .5em, .5em, .5em;
 }
 
 .me {
@@ -269,7 +280,8 @@ button {
   font-weight: bold;
   font-family: 'Apple Chancery', cursive;
   font-size: 100px;
-  text-align: center
+  text-align: center;
+  padding: .25em
 }
 
 #blurb {
@@ -457,10 +469,4 @@ a {
 
 .navActive {
   color: var(--secondary);
-}
-
-header {
-  text-align: center;
-  align-items: center;
-  
 }

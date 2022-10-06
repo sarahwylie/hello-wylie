@@ -1,72 +1,37 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
-// const selfie = "https://avatars.githubusercontent.com/u/90208612?v=4";
 
 function Nav() {
 
-    // const [data, setData] = useState(null);
-    // const [loading, setLoading] = useState(true);
-    // const [error, setError] = useState(null);
+    const [avatar, setAvatar] = useState("")
 
-    // useEffect(() => {
-    //     const getData = async () => {
-    //         try {
-    //             const response = await fetch(`https://api.github.com/users/sarahwylie`)
-    //             if (!response.ok) {
-    //                 throw new Error(
-    //                     `This is an HTTP error: The status is ${response.status}`
-    //                 );
-    //             }
-    //             let actualData = await response.json();
-    //             setData(actualData);
-    //             setError(null);
-    //         } catch (err) {
-    //             setError(err.message);
-    //             setData(null);
-    //         } finally {
-    //             setLoading(false);
-    //         }
-    //     }
-    //     getData()
-    // }, [])
+    useEffect(() => {
+        const url = "https://api.github.com/users/sarahwylie";
+
+        const fetchData = async () => {
+            try {
+                const response = await fetch(url);
+                const json = await response.json();
+                setAvatar(json.avatar_url);
+            } catch (error) {
+                console.log("error", error);
+            }
+        };
+
+        fetchData();
+    }, []);
+
 
     return (
         <header>
-            {/* <div className='flex-row'> */}
-                {/* <div className='col-2 photo'>
-                    <a href='/'>
-                        <span role="img" aria-label="img-name">
-                            <img src={selfie()}
-                                alt='Sarah'
-                                className="img-thumbnail mx-1 inline-flex"
-                                id='selfie'
-                            />
-                        </span>
-                    </a>
-                </div> */}
-                {/* <div>
-                    {loading && <div>Excellence may take time...</div>}
-                    {error && (
-                        <div>{`There is a problem fetching the post data - ${error}`}</div>
-                    )}
-                    <ul>
-                        {data &&
-                            data.map(({ id, bio }) => (
-                                <li key={id}>
-                                    <h3>{bio}</h3>
-                                </li>
-                            ))}
-                    </ul>
-                </div> */}
             <div className='flex-row'>
                 <div className='col-2 photo'>
                     <a href='/'>
                         <span role="img" aria-label="img-name">
-                            <img src={require(`../assets/profile-pic.png`)}
+                            <img src={avatar}
                                 alt='Sarah'
                                 className="img-thumbnail mx-1 inline-flex"
-                                id='selfie'
-                            />
+                                id='selfie' />
                         </span>
                     </a>
                 </div>
