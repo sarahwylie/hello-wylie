@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "f980c364ddf9e8c4aae3",
+    "revision": "134909c22f69a40438e9",
     "url": "/hello-wylie/static/css/main.35117bf4.chunk.css"
   },
   {
-    "revision": "f980c364ddf9e8c4aae3",
-    "url": "/hello-wylie/static/js/main.0bc15e36.chunk.js"
+    "revision": "134909c22f69a40438e9",
+    "url": "/hello-wylie/static/js/main.4036a6b3.chunk.js"
   },
   {
-    "revision": "c760f779ac247e214d1f",
-    "url": "/hello-wylie/static/js/runtime~main.bbea16cb.js"
+    "revision": "cbb42139a8b0df910a5b",
+    "url": "/hello-wylie/static/js/runtime~main.3699f6d4.js"
   },
   {
-    "revision": "af205712c4e74a81bf85",
+    "revision": "d281cf6adedace96e658",
     "url": "/hello-wylie/static/css/2.0fbd28ac.chunk.css"
   },
   {
-    "revision": "af205712c4e74a81bf85",
-    "url": "/hello-wylie/static/js/2.97038a14.chunk.js"
+    "revision": "d281cf6adedace96e658",
+    "url": "/hello-wylie/static/js/2.f6913a75.chunk.js"
   },
   {
-    "revision": "e2aa523fcf964839130f",
-    "url": "/hello-wylie/static/js/3.ec459d4c.chunk.js"
+    "revision": "e5c4d5c2c65b9ea05f28",
+    "url": "/hello-wylie/static/js/3.81ace054.chunk.js"
   },
   {
     "revision": "b6454ea1e2440e01d4dffb79778fe97d",
@@ -56,7 +56,11 @@ self.__precacheManifest = [
     "url": "/hello-wylie/static/media/hawker.8688b856.png"
   },
   {
-    "revision": "ac3f7f40caf437dc854ee5e79bdee0dd",
+    "revision": "24bb7fb03d17350725622a20cca5a989",
+    "url": "/hello-wylie/static/media/Schema.24bb7fb0.png"
+  },
+  {
+    "revision": "c6812b3dedfd923c6875bf1dd5f93c6b",
     "url": "/hello-wylie/index.html"
   }
 ];
