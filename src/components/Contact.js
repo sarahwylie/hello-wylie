@@ -3,16 +3,11 @@ import { validateEmail } from '../utils/helpers';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
-// import { useForm } from "react-hook-form";
 
 const ContactForm = () => {
 
-  // const { reset, register } = useForm();
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
   const { name, email, message } = formState;
-  // const [name, setName] = useState('');
-  // const [email, setEmail] = useState('');
-  // const [message, setMessage] = useState('');
   const firstRef = useRef(null);
   const middleRef = useRef(null);
   const lastRef = useRef(null);
