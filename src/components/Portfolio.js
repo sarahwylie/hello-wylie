@@ -9,6 +9,8 @@ import Password from '../assets/Password.png'
 import READ from '../assets/READ.jpg'
 import hawker from '../assets/hawker.png'
 import Schema from '../assets/Schema.png'
+import Spot from '../assets/Spot.png'
+import Weather from '../assets/Weather.png'
 
 function Portfolio() {
   //   const [inputText, setInputText] = useState("");
@@ -33,23 +35,46 @@ function Portfolio() {
             placeholder="Search"
             value={inputText}
             onChange={handleChange} /> */}
+
         <Reveal effect="fadeInUp">
-          <div className="col-12 mb-2 p-3 flex-column card">
+          <div className="col-12 mb-2 p-3 flex-column card highlighted">
             <div className='flex-row'>
+              <div className='col-4'>
+                <img src={Spot} alt="Spotified Spot" className='snaps' />
+              </div>
               <div className='col-8'>
-                <h3 className="portfolio-item-title"><a href="https://texas-hawker.herokuapp.com/"
-                  alt="Hawker website"
+                <h3 className="portfolio-item-title"><a href="https://spotified-spot-r39h.vercel.app/"
+                  alt="Spotified Spot quiz game"
                   target="_blank"
-                  rel="noopener noreferrer">Hawker</a></h3>
+                  rel="noopener noreferrer">Spotified Spot</a></h3>
                 <h5 className="portfolio-languages">
                   Built With:
-                  JavaScript, ES6, Node, NPM, Express, Cookies, Heroku, React, Sass, GraphQL, HTML, Faker.js, dotenv, bcrypt, Faker.js, Jest, React Router, JWT, Stripe, YAML, Webpack
+                  JavaScript, HTML, CSS, ES6, jQuery, Bootstrap, Vercel, Node, NPM, React, React-Router, Styled Components, Redux
                 </h5>
-                <p>Do you have a spectacular item that you just don't need anymore? Are you in search of something specific but don't want to spend an inordinate amount of money or search every thrift store in the greater metropolitan area? Come check out Hawker!</p>
-                <BsGithub /><a href="https://github.com/nicnolen/Hawker" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
+                <p>Test your knowledge or battle friends to see who is the ultimate music nerd!</p>
+                <BsGithub /><a href="https://github.com/sarahwylie/SpotifiedSpot" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
+              </div>
+            </div>
+          </div>
+        </Reveal>
+
+        <Reveal effect="fadeInUp">
+          <div className="col-12 mb-2 p-3 flex-column card highlighted">
+            <div className='flex-row'>
+              <div className='col-8'>
+                <h3 className="portfolio-item-title"><a href="https://sarahwylie.github.io/BeersandBands"
+                  alt="Beers and Bands website"
+                  target="_blank"
+                  rel="noopener noreferrer">Beers and Bands</a></h3>
+                <h5 className="portfolio-languages">
+                  Built With:
+                  JavaScript, HTML, CSS, jQuery, Bulma, API
+                </h5>
+                <p>A one-stop site for your night out! Find a local brewpub and your favorite band or concert venue. Search by city and date to plan one or several nights of drunken moshing, chill jamming, or groovy grinding.</p>
+                <BsGithub /><a href="https://github.com/sarahwylie/BeersandBands" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
               </div>
               <div className='col-4'>
-                <img src={hawker} alt="Hawker" className='snaps' />
+                <img src={BeersBands} alt="Beers and Bands" className='snaps' />
               </div>
             </div>
           </div>
@@ -103,19 +128,19 @@ function Portfolio() {
           <div className="col-12 mb-2 p-3 flex-column card">
             <div className='flex-row'>
               <div className='col-4'>
-                <img src={BeersBands} alt="Beers and Bands" className='snaps' />
+                <img src={hawker} alt="Hawker" className='snaps' />
               </div>
               <div className='col-8'>
-                <h3 className="portfolio-item-title"><a href="https://sarahwylie.github.io/BeersandBands"
-                  alt="Beers and Bands website"
+                <h3 className="portfolio-item-title"><a href="https://texas-hawker.herokuapp.com/"
+                  alt="Hawker website"
                   target="_blank"
-                  rel="noopener noreferrer">Beers and Bands</a></h3>
+                  rel="noopener noreferrer">Hawker</a></h3>
                 <h5 className="portfolio-languages">
                   Built With:
-                  JavaScript, HTML, CSS, jQuery, Bulma, API
+                  JavaScript, ES6, Node, NPM, Express, Cookies, Heroku, React, Sass, GraphQL, HTML, Faker.js, dotenv, bcrypt, Faker.js, Jest, React Router, JWT, Stripe, YAML, Webpack
                 </h5>
-                <p>A one-stop site for your night out! Find a local brewpub and your favorite band or concert venue. Search by city and date to plan one or several nights of drunken moshing, chill jamming, or groovy grinding.</p>
-                <BsGithub /><a href="https://github.com/sarahwylie/BeersandBands" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
+                <p>Do you have a spectacular item that you just don't need anymore? Are you in search of something specific but don't want to spend an inordinate amount of money or search every thrift store in the greater metropolitan area? Come check out Hawker!</p>
+                <BsGithub /><a href="https://github.com/nicnolen/Hawker" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
               </div>
             </div>
           </div>
@@ -137,7 +162,7 @@ function Portfolio() {
                 <BsGithub /><a href="https://github.com/sarahwylie/Weather-Dashboard" className="btn mt-auto"><i className="mr-2"></i>View Project on GitHub</a>
               </div>
               <div className='col-4'>
-                <img src={Note} alt="Note" className='snaps' />
+                <img src={Weather} alt="Note" className='snaps' />
               </div>
             </div>
           </div>

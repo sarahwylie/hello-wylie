@@ -151,6 +151,17 @@ body {
   border-radius: 10px;
 }
 
+.highlighted {
+  border: 10px groove var(--light);
+  /* outline: 5px solid var(--light); */
+  /* box-shadow: 
+  0 0 0 4px rgb(233, 196, 106),
+  0 0 0 8px rgb(	35,	64, 75), */
+  /* 0 0 0 20px hsl(0, 0%, 70%),
+  0 0 0 25px hsl(0, 0%, 80%),
+  0 0 0 30px hsl(0, 0%, 90%); */
+}
+
 .nb {
   font-size: 150%;
   vertical-align: center;
