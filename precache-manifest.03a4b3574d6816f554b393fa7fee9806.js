@@ -1,31 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "134909c22f69a40438e9",
-    "url": "/hello-wylie/static/css/main.35117bf4.chunk.css"
+    "revision": "47af6b54c5b7a80e621e",
+    "url": "/hello-wylie/static/css/main.ae9ca9b0.chunk.css"
   },
   {
-    "revision": "134909c22f69a40438e9",
-    "url": "/hello-wylie/static/js/main.4036a6b3.chunk.js"
+    "revision": "47af6b54c5b7a80e621e",
+    "url": "/hello-wylie/static/js/main.b85d5169.chunk.js"
   },
   {
-    "revision": "cbb42139a8b0df910a5b",
-    "url": "/hello-wylie/static/js/runtime~main.3699f6d4.js"
+    "revision": "7fdc259d239d70be51a7",
+    "url": "/hello-wylie/static/js/runtime~main.d1d428dc.js"
   },
   {
-    "revision": "d281cf6adedace96e658",
+    "revision": "6695df9cad82d986ea4c",
     "url": "/hello-wylie/static/css/2.0fbd28ac.chunk.css"
   },
   {
-    "revision": "d281cf6adedace96e658",
-    "url": "/hello-wylie/static/js/2.f6913a75.chunk.js"
+    "revision": "6695df9cad82d986ea4c",
+    "url": "/hello-wylie/static/js/2.bea85937.chunk.js"
   },
   {
-    "revision": "e5c4d5c2c65b9ea05f28",
-    "url": "/hello-wylie/static/js/3.81ace054.chunk.js"
-  },
-  {
-    "revision": "b6454ea1e2440e01d4dffb79778fe97d",
-    "url": "/hello-wylie/static/media/Note.b6454ea1.png"
+    "revision": "19b810454e7d7a701ee7",
+    "url": "/hello-wylie/static/js/3.b1c68d3b.chunk.js"
   },
   {
     "revision": "ab61f9035538e494c45c3fcf7b6115b5",
@@ -34,6 +30,10 @@ self.__precacheManifest = [
   {
     "revision": "87b708e7ead49ed8300b5a6293801e27",
     "url": "/hello-wylie/static/media/Rainbosplosion.87b708e7.jpg"
+  },
+  {
+    "revision": "b6454ea1e2440e01d4dffb79778fe97d",
+    "url": "/hello-wylie/static/media/Note.b6454ea1.png"
   },
   {
     "revision": "997395995eda0aa026ec13db46f50c06",
@@ -60,7 +60,15 @@ self.__precacheManifest = [
     "url": "/hello-wylie/static/media/Schema.24bb7fb0.png"
   },
   {
-    "revision": "c6812b3dedfd923c6875bf1dd5f93c6b",
+    "revision": "513f9033df9590ef32e5206e3c23b6f3",
+    "url": "/hello-wylie/static/media/Spot.513f9033.png"
+  },
+  {
+    "revision": "8a0ed982992ebbf1cb4bd524b2a39d02",
+    "url": "/hello-wylie/static/media/Weather.8a0ed982.png"
+  },
+  {
+    "revision": "655fbb554d8c5afb0d5901d4fda2979e",
     "url": "/hello-wylie/index.html"
   }
 ];
